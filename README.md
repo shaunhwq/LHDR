@@ -16,7 +16,7 @@ in ACCV2022.
 
 ---
 
-## Testing (on external image, for cuda 10.0
+## Testing (on external image, for cuda 10.2
 
 Installation
 ```
