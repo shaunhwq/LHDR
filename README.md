@@ -16,6 +16,23 @@ in ACCV2022.
 
 ---
 
+## Testing (on external image, for cuda 10.0
+
+Installation
+```
+conda create -n LHDR python=3.8.0
+conda activate LHDR
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=10.2 -c pytorch
+pip3 install opencv-python tqdm
+```
+
+Running
+```
+export CUDA_VISIBLE_DEVICES=3
+cd LHDR
+python3 lhdr_demo.py --input_dir path_to_input_dir --output_dir path_to_output_dir
+```
+
 ## 1. Overview
 
 ### 1.1 Our scope
